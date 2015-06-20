@@ -36,8 +36,8 @@ if($_POST){
             $mail->IsSMTP(); 
             $mail->Host = "ssl://smtp.gmail.com:465";  // Servidor de Salida. 465 es uno de los puertos que usa Google para su servidor SMTP
             $mail->SMTPAuth = true; 
-            $mail->Username = "20121147@itla.edu.do";  // Correo Electrónico
-            $mail->Password = "oxford.10"; // Contraseña del correo
+            $mail->Username = "********";  // Correo Electrónico
+            $mail->Password = "********"; // Contraseña del correo
 
             if ($mail->Send())
             echo "<script>alert('Formulario enviado exitosamente, le responderemos lo más pronto posible.');location.href ='javascript:history.back()';</script>";
